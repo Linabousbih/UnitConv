@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="counter">
+        <h2>Metric/Imperial unit conversion</h2>
+        <h1>
+            <input id="number-el"/>
+            <button onclick="convert()">
+            <div id="play"></div></button>
+        </h1>
+        <h1 class="showing">0</h1>
+        </div>
+        <div class="result">
+            <p class="content-m">Length (Meter/Feet)</p>
+            <p id="result-m">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+        </div>
+        <div class="result">
+            <p class="content-v">Volume (Liters/Gallons)</p>
+            <p id="result-v">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</p>
+        </div>
+        <div class="result">
+            <p class="content-k">Mass (Kilograms/Pounds)</p>
+            <p id="result-k">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

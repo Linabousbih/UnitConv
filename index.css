@@ -1,0 +1,44 @@
+.counter{
+position: absolute;
+width: 550px;
+height: 260px;
+left: 0px;
+top: 0px;
+background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+#number-el{
+    position: absolute;
+width: 142px;
+height: 32px;
+left: 205px;
+top: 122px;
+
+background: rgba(255, 255, 255, 0.51);
+border: 0.2px solid #1F2937;
+border-radius: 22px;
+}
+
+button{
+    position: absolute;
+width: 35px;
+height: 32px;
+left: 312px;
+top: 122px;
+
+background: #1F2937;
+border: 0.2px solid #1F2937;
+border-radius: 22px;
+
+}
+
+#play{
+position: absolute;
+width: 15px;
+height: 11.01px;
+left: 334.04px;
+top: 130.02px;
+
+background: #D4A7E6;
+transform: rotate(90.1deg);
+}
